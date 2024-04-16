@@ -1,54 +1,92 @@
-.logo{            
-    background-color: cyan;
-           height: 300px;
- width: 1400px; ;
- font-size:   20px ;
- font-family: 'Lucida Sans', 'Lucida Grande',  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       Color:       rgb(235, 0, 0);
-       text-align:  center;
- }
- .menu{                                                                                                           
-     background-color: orange;
-     height: 100px;;
-     width: 200% ;
+.logo{
+  background-color: cyan;
+        height: 300px;
+width:1600px ;
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(235, 0, 0);
+    text-align: center;
+}
+.menu{
+ background-color: powderblue;
+    height: 105px;;
+    width: 1600px;
+display: flex;
+}
+.boton{
+  background-color: orangered;
+    height: 100px;
+    width: 100px;
+    margin: 1.5px;
+    
+    
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+
+}
+.contenedor{
+  background-color: palegreen;
+  height:1400px;
+  width: 1600px;
  display: flex;
- }
- .boton{
-     background-color: orangered;
-        height:  100px;
-        width:   100px;
-        margin:  1.5px;
- 
- 
-        font-size: 18px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
- 
- 
- }
-       .contenedor{
-         background-color: palegreen;
-         height: 800px;
-         width: 1400px;
-     display: flex;
+ justify-content: center;
+}
+.izquierdo{
+   background-color: rgb(255, 255, 72);
+   width: 250px;
+ height: 3500px;
+
+}
+.centro{
+   background-color: palegreen;
+    width: 1400px; ;
+height: 3500px;
+
+}
+.derecho{
+    width: 250px;
+    height: 3500px;
+background-color: rgb(255, 255, 72);
+}
+p{
+  font-size: 30px;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titulo{
+  font-size: 35px;
+  color: rgb(255, 0, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
   }
-     .izquierdo{
-         background-color: rgb(255, 255, 72);
-         width: 250px;
-         height: 800px;
- }
-      .centro{
-         background-color: palegreen;
-         width: 1400px;
-     height: 800px
- }
-      .derecho{
-         width: 250px;
-         height: 800px;
-     background-color: rgb(255, 255, 72)} 
-     
-     
-     
+.imagen{
+  background-image: url("democracia.png");
+  height: 350px;
+  width: 650px;
+}
+.jhon{
+background-image: url("jhon.png");  
+height: 500px;
+width: 559;
+background-repeat: no-repeat;
+
+
+}
+.perio{
+  background-image: url("perio.png");
+  height: 650px;
+  width: 1000px;
+background-repeat: no-repeat;
+}
+.qui{
+  background-image: url("qui.png");
+  height: 650px;
+  width: 1000px;
+  background-repeat: no-repeat;
+}
+       
      
  
  
